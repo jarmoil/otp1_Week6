@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools{
-        maven 'MAVE_HOME'
+        maven 'MAVEN_HOME'
     }
     stages{
         stage('checking'){
